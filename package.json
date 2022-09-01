@@ -1,0 +1,12 @@
+{
+    "name": "after-build-notifier",
+    "version": "0.0.1",
+    "package_version": 2,
+    "description": "同于打包后通知桌面",
+    "contributions": {
+        "builder": "./builder"
+    },
+    "dependencies": {
+        "node-notifier": "^10.0.1"
+    }
+}
